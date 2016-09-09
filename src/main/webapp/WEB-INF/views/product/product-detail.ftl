@@ -171,7 +171,7 @@
 			    //放大镜视窗
 			    $("#bigView").decorateIframe();
 			    //点击到中图
-			    var midChangeHandler = null;
+			   // var midChangeHandler = null;
 				
 			    $("#imageMenu li img").bind("click", function(){
 					if ($(this).attr("id") != "onlickImg") {
@@ -182,7 +182,7 @@
 					}
 				}).bind("mouseover", function(){
 					if ($(this).attr("id") != "onlickImg") {
-						window.clearTimeout(midChangeHandler);
+						//window.clearTimeout(midChangeHandler);
 						midChange($(this).attr("src").replace("${imageSet.tiny_pic_width}x${imageSet.tiny_pic_height}", "${imageSet.big_pic_width}x${imageSet.big_pic_height}"));
 						$(this).css({ "border": "3px solid #959595" });
 					}
