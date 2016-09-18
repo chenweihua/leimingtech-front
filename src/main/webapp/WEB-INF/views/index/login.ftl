@@ -26,7 +26,7 @@
 <div class="header-wrap">
     <header class="public-head-layout wrapper">
         <!--LOGO-->
-        <h1 class="site-logo"><a href="${base}"><img src="res/images/common/690ea902fe2708381da2cabff4ee46c8.png" class="pngFix"></a></h1>
+        <h1 class="site-logo"><a href="${base}"><img src="res/images/common/690ea902fe2708381da2cabff4ee46c8.jpg" class="pngFix"></a></h1>
         <!--搜索-->
     </header>
 </div>
